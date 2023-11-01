@@ -29,7 +29,7 @@ unzip_build:
 	@echo "Unzip complete. Edit files in ${MODULE_DST_DIR}/${MODULE_NAME} and run 'make zip_build' to create a new build."
 	@echo "##############################"
 
-all_build:
+copy_and_unzip_build:
 	$(MAKE) copy_build
 	$(MAKE) unzip_build
 
