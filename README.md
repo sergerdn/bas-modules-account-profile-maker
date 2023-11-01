@@ -88,7 +88,7 @@ Before proceeding, make sure you have the following installed on your machine:
   git clone git@github.com:sergerdn/bas-modules-account-profile-maker.git 
   ``` 
 - Open BAS (Browser Automation Studio).
-- Click on "Open" and choose [AccountProfileMakerModuleSrc.xml](bas_scripts/modules/AccountProfileMakerModuleSrc.xml)
+- Click on "Open" and choose [AccountProfileMakerModuleSrc.xml](bas_scripts/AccountProfileMakerModuleSrc.xml)
 - Make the required modifications to the module.
 - Save project
 - Access the "Module Manager" tab within the BAS interface.
