@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.1.0...v1.2.0) (2023-11-01)
+
+
+### Features
+
+* new version ([90f57ce](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/90f57ce5a5c17e3491ecfc3fe3a1429f4d547e4e))
+
 # [1.1.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.0.0...v1.1.0) (2023-11-01)
 
 

@@ -1,8 +1,9 @@
 {
   "name": "bas-modules-account-profile-maker",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "type": "commonjs",
+  "private": true,
   "repository": "https://github.com/sergerdn/bas-modules-account-profile-maker",
   "author": "sergerdn <64213648+sergerdn@users.noreply.github.com>",
   "license": "MIT",

@@ -131,12 +131,19 @@ To prepare for the release, follow these steps:
 
 To create a new release, follow these steps:
 
-- Ensure you are on the `master` branch. Release creation is only allowed from the `master` branch.
-- To create a new release, run the following command:
-  ```bash
-  make release
-  ```
-- Commit your changes and push them to the repository.
+1. Ensure you are on the `master` branch. Release creation is only allowed from the `master` branch.
+2. Dry run the release process by running the following command:
+    ```bash
+    make release_dry_run
+    ```
+3. Edit [AccountProfileMaker/engine.js](bas_scripts/modules/compiled/AccountProfileMaker/AccountProfileMaker/engine.js)
+   and modify the `major_version` and `minor_version` variables according to your future release version.
+4. Commit your changes with commit message `feat: new version` and push them to the repository with.
+5. To create a new release, run the following command:
+    ```bash
+    make release
+   ```
+6. Commit your changes with commit message `chore: new version` and push them to the repository with.
 
 You have successfully released your BAS module on GitHub. Please remember to follow any specific release guidelines or
 conventions for your project.
