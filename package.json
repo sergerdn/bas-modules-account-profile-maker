@@ -1,6 +1,6 @@
 {
   "name": "bas-modules-account-profile-maker",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "type": "commonjs",
   "repository": "https://github.com/sergerdn/bas-modules-account-profile-maker",
@@ -21,6 +21,12 @@
     "unique-names-generator": "^4.7.1"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.1",
+    "@semantic-release/npm": "^11.0.0",
+    "@semantic-release/release-notes-generator": "^12.0.0",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.0.0",
@@ -30,6 +36,7 @@
     "npm-check-updates": "^16.14.6",
     "prettier": "^3.0.3",
     "prettier-plugin-sort-imports": "^1.7.2",
+    "semantic-release": "^22.0.6",
     "typescript": "^5.2.2"
   }
 }

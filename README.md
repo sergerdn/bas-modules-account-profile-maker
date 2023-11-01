@@ -1,6 +1,8 @@
-## AccountProfileMaker: Simplify Account Creation and User Profiles
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**Note: This library is currently in active development, and its API may undergo changes without notice at any time.**
+
+## AccountProfileMaker: Simplify Account Creation and User Profiles
 
 ### What is AccountProfileMaker?
 
