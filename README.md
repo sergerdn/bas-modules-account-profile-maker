@@ -100,7 +100,7 @@ Before proceeding, make sure you have the following installed on your machine:
   ![](./docs/images/install_2.png)
 - Proceed with the necessary steps.
 
-#### Pre-Release Module Steps
+### Pre-Release Module Steps
 
 To prepare for the release, follow these steps:
 
@@ -121,7 +121,7 @@ To prepare for the release, follow these steps:
 To create a new release, follow these steps:
 
 - Ensure you are on the `master` branch. Release creation is only allowed from the `master` branch.
-- Run `make release` command:
+- To create a new release, run the following command:
   ```bash
   make release
   ```
