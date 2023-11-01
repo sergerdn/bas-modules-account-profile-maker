@@ -45,3 +45,29 @@ Other similar projects:
 
 - https://community.bablosoft.com/topic/21385/fakepersongenerator-module-for-creating-a-fake-person
 - https://www.npmjs.com/package/@faker-js/faker
+
+### Integrating AccountProfileMaker into Your BAS Project:
+
+#### Download the Latest Release:
+
+- Visit the [Releases](https://github.com/sergerdn/bas-modules-account-profile-maker/releases) section of the GitHub
+  repository.
+- Download the latest release of the `AccountProfileMaker` module by clicking on the desired version.
+
+#### Install the Downloaded Module to BAS:
+
+- Begin by opening your BAS project.
+- Access the "Module Manager" tab within the BAS interface.
+
+  ![](./docs/images/install_1.png)
+
+- Locate and click the "Install Module" button.
+
+  ![](./docs/images/install_2.png)
+
+- Next, find and select the downloaded `AccountProfileMaker.zip` module file.
+- If you are updating the module, kindly confirm your intent to overwrite the currently installed version when prompted.
+
+You've successfully integrated `AccountProfileMaker` into your BAS project. Now you can use its features to simplify
+account creation and user profile generation. Happy automating!
+
