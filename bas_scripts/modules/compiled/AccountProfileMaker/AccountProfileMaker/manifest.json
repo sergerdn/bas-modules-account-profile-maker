@@ -67,8 +67,8 @@
     ],
     "localize": {
     },
-    "major_version": 0,
-    "minor_version": 4,
+    "major_version": 1,
+    "minor_version": 0,
     "modules": [
     ],
     "name": "AccountProfileMaker"
