@@ -4,6 +4,30 @@
 
 ## AccountProfileMaker: Simplify Account Creation and User Profiles
 
+### What is a Module in BAS?
+
+In BAS, a `module` is akin to a class in programming languages such as `JavaScript`, `Python`, or `Java`.
+It serves as a reusable block of code that encapsulates specific functionality, similar to how classes encapsulate
+methods and data in traditional programming languages.
+
+BAS modules offer several advantages:
+
+- **Code Reusability:** Modules allow you to write code once and reuse it across multiple scripts, promoting code
+  modularity and simplifying the process of reusing specific functionalities.
+- **Organization:** Modules help you maintain a well-organized codebase by grouping related functions and data together,
+  just as classes organize methods and attributes.
+- **Customization:** You can create modules tailored to your project's needs, focusing on the specific functionality you
+  want to reuse.
+- **Ease of Integration:** Integrating a module into a script is straightforward, as you only need to import the module
+  and use its functions or data.
+
+To create a module:
+
+1. Develop a script containing the functions you want to encapsulate.
+2. Create a module from your functions.
+3. Install the newly created module in BAS.
+4. Incorporate the module into your scripts to access its functionality efficiently.
+
 ### What is AccountProfileMaker?
 
 `AccountProfileMaker` is a `BAS` module that simplifies the often complex task of creating user accounts and generating
@@ -101,15 +125,9 @@ Before proceeding, make sure you have the following installed on your machine:
 
 - Proceed with the necessary steps.
 
-#### Running Functional Tests
+  ![](./docs/images/create_2.png)
 
-To run functional tests for the module, follow these steps:
-
-- Ensure you have installed or updated the module via the "Module Manager" tab within the BAS interface.
-- Open a new instance of BAS (Browser Automation Studio).
-- Click on "Open" and
-  select [TestFunctional_AccountProfileMakerModule.xml](bas_scripts/TestFunctional_AccountProfileMakerModule.xml).
-- Run the tests.
+  ![](./docs/images/create_3.png)
 
 ### Pre-Release Module Steps
 
@@ -125,7 +143,19 @@ To prepare for the release, follow these steps:
   ```bash
   make zip_build
   ```
+- **Reinstall the modified module** from [AccountProfileMaker.zip](bas_scripts/modules/compiled/AccountProfileMaker.zip)
+  to BAS and perform testing to ensure the changes are functioning correctly.
 - Commit your changes and push them to the repository.
+
+#### Running Functional Tests
+
+To run functional tests for the module, follow these steps:
+
+- Ensure you have installed or updated the module via the "Module Manager" tab within the BAS interface.
+- Open a new instance of BAS (Browser Automation Studio).
+- Click on "Open" and
+  select [TestFunctional_AccountProfileMakerModule.xml](bas_scripts/TestFunctional_AccountProfileMakerModule.xml).
+- Run the tests.
 
 ### How to Make a New Release on GitHub
 

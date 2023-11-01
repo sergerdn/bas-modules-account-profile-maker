@@ -13,13 +13,18 @@ function parseCsv(csvData) {
       const maleNames = new Set()
       const femaleNames = new Set()
 
+      const maleLastName = new Set()
+      const femaleLastName = new Set()
+
       results.data.forEach((row) => {
         if (row.Gender === 'male') {
           maleNames.add(row.GivenName)
+          maleLastName.add(row.Surname)
           return
         }
         if (row.Gender === 'female') {
           femaleNames.add(row.GivenName)
+          femaleLastName.add(row.Surname)
         }
       })
 
@@ -36,6 +41,16 @@ function parseCsv(csvData) {
       const outputPathFemale = path.join(__dirname, 'output', 'us_female_names.json')
       fs.writeFileSync(outputPathFemale, JSON.stringify(sortedFemaleNames, null, 0))
       console.log(`Unique female names saved to ${outputPathFemale}`)
+
+      const sortedMaleLastName = Array.from(maleLastName).sort()
+      const outputMaleLastName = path.join(__dirname, 'output', 'us_male_last_names.json')
+      fs.writeFileSync(outputMaleLastName, JSON.stringify(sortedMaleLastName, null, 0))
+      console.log(`Unique male surnames saved to ${outputMaleLastName}`)
+
+      const sortedFemaleLastName = Array.from(femaleLastName).sort()
+      const outputFemaleLastName = path.join(__dirname, 'output', 'us_female_last_names.json')
+      fs.writeFileSync(outputFemaleLastName, JSON.stringify(sortedFemaleLastName, null, 0))
+      console.log(`Unique female surnames saved to ${outputFemaleLastName}`)
     }
   })
 }
