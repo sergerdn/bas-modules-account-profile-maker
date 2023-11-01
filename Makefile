@@ -40,9 +40,13 @@ zip_build:
 	@git add "${MODULE_DST_DIR}/*"
 	@echo "ZIP build complete."
 
+release_dry_run:
+	@echo "Releasing..."
+	npx semantic-release --no-ci -d
+
 release:
 	@echo "Releasing..."
-	CI=true npx semantic-release
+	npx semantic-release --no-ci
 
 #format:
 #	@echo "Running format and lint fix..."
