@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.2.0...v1.3.0) (2023-11-01)
+
+
+### Features
+
+* add last name ([#12](https://github.com/sergerdn/bas-modules-account-profile-maker/issues/12)) ([4514fcc](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/4514fcc8cef02717871099dacf54fb2e223a526e))
+* new version ([3a86d8c](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/3a86d8c857f3ad29d09de75cc0c08c349a1d91b4))
+
 # [1.2.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.1.0...v1.2.0) (2023-11-01)
 
 
