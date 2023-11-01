@@ -97,8 +97,19 @@ Before proceeding, make sure you have the following installed on your machine:
 
 - Locate and click the "Create new Module" button:
 
-  ![](./docs/images/install_2.png)
+  ![](./docs/images/create_1.png)
+
 - Proceed with the necessary steps.
+
+#### Running Functional Tests
+
+To run functional tests for the module, follow these steps:
+
+- Ensure you have installed or updated the module via the "Module Manager" tab within the BAS interface.
+- Open a new instance of BAS (Browser Automation Studio).
+- Click on "Open" and
+  select [TestFunctional_AccountProfileMakerModule.xml](bas_scripts/TestFunctional_AccountProfileMakerModule.xml).
+- Run the tests.
 
 ### Pre-Release Module Steps
 

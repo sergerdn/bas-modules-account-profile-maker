@@ -81,7 +81,12 @@ function AccountProfileMaker_randomPassword()
       }
       var desiredLength = parseInt(_function_argument("length")) || 10; // Change this to your desired password length
       if (desiredLength < 10) {
+      log("[account-profile-maker][randomPassword] warning: password length set to 10");
       desiredLength = 10;
+      }
+      if (desiredLength > 20) {
+      log("[account-profile-maker][randomPassword] warning: password length set to 20");
+      desiredLength = 20;
       }
       var useDigits = _function_argument("useDigits") === "true" || _function_argument("useDigits") === true; // Include digits in the password (true or false)
       var useSpecialChars = _function_argument("useSpecialChars") === "true" || _function_argument("useSpecialChars") === true; // Include special characters in the password (true or false)
