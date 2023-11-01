@@ -1,3 +1,6 @@
+include .env
+export
+
 .DEFAULT_GOAL := copy_build
 BAS_VER = "26.3.0"
 MODULE_SOURCE_DIR = "AppData/Roaming/BrowserAutomationStudio/apps/${BAS_VER}/modulecreate/AccountProfileMaker"
@@ -36,6 +39,10 @@ zip_build:
 	cd "${MODULE_DST_DIR}/${MODULE_NAME}" && zip -r "${ZIP_DST_PROD_NAME}" "${MODULE_NAME}" && mv "${ZIP_DST_PROD_NAME}" ..
 	@git add "${MODULE_DST_DIR}/*"
 	@echo "ZIP build complete."
+
+release:
+	@echo "Releasing..."
+	CI=true npx semantic-release
 
 #format:
 #	@echo "Running format and lint fix..."
