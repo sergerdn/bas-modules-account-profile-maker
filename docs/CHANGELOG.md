@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.0.0...v1.1.0) (2023-11-01)
+
+
+### Features
+
+* add RU country to randomFirstNameByCountry ([0ab33e1](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/0ab33e1c1e66dbc1e7c67407571188ea7a2bfaed))
+* add RU country to randomFirstNameByCountry ([#5](https://github.com/sergerdn/bas-modules-account-profile-maker/issues/5)) ([0d23240](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/0d23240ffd3ef7e8fa4e5da963bf2fe1b6d76b13))
+
 # 1.0.0 (2023-11-01)
 
 
