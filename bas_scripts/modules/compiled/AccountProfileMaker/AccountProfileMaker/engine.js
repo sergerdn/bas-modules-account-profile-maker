@@ -1,3 +1,47 @@
+function AccountProfileMaker_randomPronounceableUsername()
+   {
+   
+      
+      
+      /**
+      * Generates a pronounceable username of the specified length.
+      * The username consists of alternating consonants and vowels.
+      * @param {number} length - The desired length of the username.
+      * @returns {string} - A pronounceable username of the specified length.
+      */
+      function generatePronounceableUsername(length) {
+      var vowels = 'aeiou';
+      var consonants = 'bcdfghjklmnpqrstvwxyz';
+      var username = '';
+      for (var i = 0; i < length; i++) {
+      if (i % 2 === 0) {
+      // Add a consonant for even positions
+      username += consonants[Math.floor(Math.random() * consonants.length)];
+      } else {
+      // Add a vowel for odd positions
+      username += vowels[Math.floor(Math.random() * vowels.length)];
+      }
+      }
+      return username;
+      }
+      var desiredLength = parseInt(_function_argument("length")) || 10; // Change this to your desired password length
+      if (desiredLength < 10) {
+      log("[account-profile-maker][randomPronounceableUsername] warning: username length set to 10");
+      desiredLength = 10;
+      }
+      if (desiredLength > 20) {
+      log("[account-profile-maker][randomPronounceableUsername] warning: username length set to 20");
+      desiredLength = 20;
+      }
+      log("[account-profile-maker][randomPronounceableUsername] called with params length: " + desiredLength);
+      var generatedUsername = generatePronounceableUsername(desiredLength);
+      log("[account-profile-maker][randomPronounceableUsername] new username generated: " + generatedUsername);
+      _function_return(generatedUsername);
+      
+
+   }
+   
+
 function AccountProfileMaker_transliterateCyrillicToEnglish()
    {
    
