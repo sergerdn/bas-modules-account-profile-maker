@@ -15,10 +15,20 @@
       VAR_APM_LAST_NAME_RESULT = _result_function()
       section_end()!
 
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable  of the function\u0027s return.\u0022\u007d", 873595891)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fTEFTVF9OQU1FX1JFU1VMVCJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1bmRlZmluZWQiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      VAR_APM_LAST_NAME_RESULT = undefined
+      section_end()!
+
       section_start("\u007b\u0022n\u0022:\u0022US, female\u0022\u007d", 400768491)!
       /*Dat:eyJzIjoiQWNjb3VudFByb2ZpbGVNYWtlcl9yYW5kb21MYXN0TmFtZUJ5Q291bnRyeSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJpY3BvcWV3dyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiVVMiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJ3dGZ5ZXlybyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZmVtYWxlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiQVBNX0xBU1RfTkFNRV9SRVNVTFQifV19*/
       _call_function(AccountProfileMaker_randomLastNameByCountry,{ "country": ("US"),"gender": ("female") })!
       VAR_APM_LAST_NAME_RESULT = _result_function()
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable  of the function\u0027s return.\u0022\u007d", 147151084)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fTEFTVF9OQU1FX1JFU1VMVCJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1bmRlZmluZWQiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      VAR_APM_LAST_NAME_RESULT = undefined
       section_end()!
 
       section_start("\u007b\u0022n\u0022:\u0022RU, male\u0022\u007d", 372185491)!
@@ -27,10 +37,20 @@
       VAR_APM_LAST_NAME_RESULT = _result_function()
       section_end()!
 
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable  of the function\u0027s return.\u0022\u007d", 262981544)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fTEFTVF9OQU1FX1JFU1VMVCJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1bmRlZmluZWQiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      VAR_APM_LAST_NAME_RESULT = undefined
+      section_end()!
+
       section_start("\u007b\u0022n\u0022:\u0022RU, female\u0022\u007d", 628268043)!
       /*Dat:eyJzIjoiQWNjb3VudFByb2ZpbGVNYWtlcl9yYW5kb21MYXN0TmFtZUJ5Q291bnRyeSIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJpY3BvcWV3dyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUlUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJ3dGZ5ZXlybyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZmVtYWxlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiQVBNX0xBU1RfTkFNRV9SRVNVTFQifV19*/
       _call_function(AccountProfileMaker_randomLastNameByCountry,{ "country": ("RU"),"gender": ("female") })!
       VAR_APM_LAST_NAME_RESULT = _result_function()
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable  of the function\u0027s return.\u0022\u007d", 630754204)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fTEFTVF9OQU1FX1JFU1VMVCJ9LHsiaWQiOiJTZXRWYXJpYWJsZVZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1bmRlZmluZWQiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      VAR_APM_LAST_NAME_RESULT = undefined
       section_end()!
 
    }
@@ -46,10 +66,20 @@
       VAR_APM_FIRST_NAME_RESULT = _result_function()
       section_end()!
 
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable  of the function\u0027s return.\u0022\u007d", 571883416)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fRklSU1RfTkFNRV9SRVNVTFQifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidW5kZWZpbmVkIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      VAR_APM_FIRST_NAME_RESULT = undefined
+      section_end()!
+
       section_start("", 812885604)!
       /*Dat:eyJzIjoiQWNjb3VudFByb2ZpbGVNYWtlcl9yYW5kb21GaXJzdE5hbWVCeUNvdW50cnkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoienhjdHFxeGciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlJVIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiaWd0YW12eGYiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Im1hbGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fRklSU1RfTkFNRV9SRVNVTFQifV19*/
       _call_function(AccountProfileMaker_randomFirstNameByCountry,{ "country": ("RU"),"gender": ("male") })!
       VAR_APM_FIRST_NAME_RESULT = _result_function()
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable  of the function\u0027s return.\u0022\u007d", 621282995)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fRklSU1RfTkFNRV9SRVNVTFQifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidW5kZWZpbmVkIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      VAR_APM_FIRST_NAME_RESULT = undefined
       section_end()!
 
       section_start("", 926343463)!
@@ -58,10 +88,20 @@
       VAR_APM_FIRST_NAME_RESULT = _result_function()
       section_end()!
 
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable  of the function\u0027s return.\u0022\u007d", 963788401)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fRklSU1RfTkFNRV9SRVNVTFQifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidW5kZWZpbmVkIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      VAR_APM_FIRST_NAME_RESULT = undefined
+      section_end()!
+
       section_start("", 693850494)!
       /*Dat:eyJzIjoiQWNjb3VudFByb2ZpbGVNYWtlcl9yYW5kb21GaXJzdE5hbWVCeUNvdW50cnkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoienhjdHFxeGciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlJVIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiaWd0YW12eGYiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImZlbWFsZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkFQTV9GSVJTVF9OQU1FX1JFU1VMVCJ9XX0=*/
       _call_function(AccountProfileMaker_randomFirstNameByCountry,{ "country": ("RU"),"gender": ("female") })!
       VAR_APM_FIRST_NAME_RESULT = _result_function()
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable  of the function\u0027s return.\u0022\u007d", 413002529)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fRklSU1RfTkFNRV9SRVNVTFQifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidW5kZWZpbmVkIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      VAR_APM_FIRST_NAME_RESULT = undefined
       section_end()!
 
    }
@@ -95,7 +135,7 @@
       })!
       section_end()!
 
-      section_start("", 671611082)!
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable of the function\u0027s return.\u0022\u007d", 671611082)!
       /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fUEFTU1dPUkRfUkVTVUxUIn0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InVuZGVmaW5lZCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
       VAR_APM_PASSWORD_RESULT = undefined
       section_end()!
@@ -119,7 +159,7 @@
       })!
       section_end()!
 
-      section_start("", 102929368)!
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable of the function\u0027s return.\u0022\u007d", 102929368)!
       /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fUEFTU1dPUkRfUkVTVUxUIn0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InVuZGVmaW5lZCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
       VAR_APM_PASSWORD_RESULT = undefined
       section_end()!
@@ -141,6 +181,11 @@
          section_end()!
 
       })!
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Clear the variable of the function\u0027s return.\u0022\u007d", 899558690)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJBUE1fUEFTU1dPUkRfUkVTVUxUIn0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InVuZGVmaW5lZCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      VAR_APM_PASSWORD_RESULT = undefined
       section_end()!
 
    }
