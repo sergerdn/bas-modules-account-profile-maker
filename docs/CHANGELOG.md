@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.5.0...v1.6.0) (2023-11-02)
+
+
+### Features
+
+* add genUsernameFromLastpass to module ([ac27008](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/ac27008cf0f35a16885c290776361b9fb73c63c8))
+* new version ([81e18da](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/81e18dacfaaf039929c5bfb648c0deb0b2dd4e42))
+
 # [1.5.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.4.0...v1.5.0) (2023-11-02)
 
 
