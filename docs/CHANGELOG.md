@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.4.0...v1.5.0) (2023-11-02)
+
+
+### Features
+
+* add randomPronounceableUsername ([069a408](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/069a4089334a7dbab9ac16cce5b74970c5a1bd37))
+* add randomPronounceableUsername to the src of module ([aadefd9](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/aadefd95bedca7c1851368575c4d5243096b3a80))
+* new version ([a196e1f](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/a196e1f6f20a8b7bde1271da5a4e16eae280f3fc))
+
 # [1.4.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.3.0...v1.4.0) (2023-11-02)
 
 
