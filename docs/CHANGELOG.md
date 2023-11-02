@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.3.0...v1.4.0) (2023-11-02)
+
+
+### Features
+
+* add transliterateCyrillicToEnglish ([dddbc4f](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/dddbc4f7b622211313ebd1587431bbe017ecb3bb))
+* add transliterateCyrillicToEnglish to the src of module ([66deb50](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/66deb5082b7107a90952a6892ae49943586c1608))
+* new version ([1bf2dbc](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/1bf2dbc8d8a57bb9ca5a47ecade266dcd2ed31fb))
+
 # [1.3.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.2.0...v1.3.0) (2023-11-01)
 
 
