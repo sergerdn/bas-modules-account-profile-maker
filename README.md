@@ -69,6 +69,7 @@ Other similar projects:
 
 - https://community.bablosoft.com/topic/21385/fakepersongenerator-module-for-creating-a-fake-person
 - https://www.npmjs.com/package/@faker-js/faker
+- https://www.fakenamegenerator.com/
 
 ### Integrating AccountProfileMaker into Your BAS Project:
 
