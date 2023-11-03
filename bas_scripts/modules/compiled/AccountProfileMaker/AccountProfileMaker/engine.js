@@ -44,7 +44,7 @@ function AccountProfileMaker_buildFullUserRecord()
       
       
       if (VAR_USERNAME_TYPE !== "pronounceable" && VAR_USERNAME_TYPE !== "lastpass") {
-      fail_user("[account-profile-maker][buildFullUserRecord] invalid usernameType: " + usernameType, true);
+      fail_user("[account-profile-maker][buildFullUserRecord] invalid usernameType: " + VAR_USERNAME_TYPE, true);
       }
       VAR_RESULT["country"] = VAR_COUNTRY;
       VAR_RESULT["gender"] = VAR_GENDER;
@@ -52,6 +52,83 @@ function AccountProfileMaker_buildFullUserRecord()
       var msg = msg + ", passwordUseDigits: " + VAR_PASSWORD_USE_DIGITS + ", passwordUseSpecialChars: " + VAR_PASSWORD_USE_SPECIAL_CHARS;
       var msg = msg + ", usernameType: " + VAR_USERNAME_TYPE + ", usernameLength: " + VAR_PASSWORD_LENGTH;
       log("[account-profile-maker][buildFullUserRecord] called with param " + msg);
+      
+
+      
+      
+      _call_function(AccountProfileMaker_randomPassword,{ "length" : (15) ,  "useDigits" : ("true") ,  "useSpecialChars" : ("true")  })!
+      VAR__PASSWORD_RESULT = _result_function()
+      
+
+      
+      
+      _call_function(AccountProfileMaker_randomLastNameByCountry,{ "country": (VAR_COUNTRY),"gender": (VAR_GENDER) })!
+      VAR__LAST_NAME_RESULT = _result_function()
+      
+
+      
+      
+      _call_function(AccountProfileMaker_randomFirstNameByCountry,{ "country": (VAR_COUNTRY),"gender": (VAR_GENDER) })!
+      VAR__FIRST_NAME_RESULT = _result_function()
+      
+
+      
+      
+      _call_function(AccountProfileMaker_transliterateCyrillicToEnglish,{ "cyrillicText": (VAR__FIRST_NAME_RESULT) })!
+      VAR__FIRST_NAME_RESULT = _result_function()
+      
+
+      
+      
+      _call_function(AccountProfileMaker_transliterateCyrillicToEnglish,{ "cyrillicText": (VAR__LAST_NAME_RESULT) })!
+      VAR__LAST_NAME_RESULT = _result_function()
+      
+
+      
+      
+      _cycle_params().if_else = VAR_USERNAME_TYPE === "pronounceable";
+      _set_if_expression("W1tVU0VSTkFNRV9UWVBFXV0gPT09ICJwcm9ub3VuY2VhYmxlIg==");
+      _if(_cycle_params().if_else,function(){
+      
+         
+         
+         _call_function(AccountProfileMaker_generatePronounceableUsername,{ "length": (VAR_USERNAME_LENGTH) })!
+         VAR__USERNAME_RESULT = _result_function()
+         
+
+      })!
+      
+
+      
+      
+      _if(!_cycle_params().if_else,function(){
+      
+         
+         
+         _call_function(AccountProfileMaker_generateLastPassStyleUsername,{ "length": (VAR_USERNAME_LENGTH) })!
+         VAR__USERNAME_RESULT = _result_function()
+         
+
+      })!
+      delete _cycle_params().if_else;
+      
+
+      
+      
+      VAR_RESULT["first_name"] = VAR__FIRST_NAME_RESULT;
+      VAR_RESULT["last_name"] = VAR__LAST_NAME_RESULT;
+      VAR_RESULT["username"] = VAR__USERNAME_RESULT;
+      VAR_RESULT["password"] = VAR__PASSWORD_RESULT;
+      
+
+      
+      
+      log("[account-profile-maker][buildFullUserRecord] new user record: " + JSON.stringify(VAR_RESULT))
+      
+
+      
+      
+      _function_return(VAR_RESULT)
       
 
    }
