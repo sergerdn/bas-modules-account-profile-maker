@@ -1,3 +1,13 @@
+# [1.7.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.6.0...v1.7.0) (2023-11-03)
+
+
+### Features
+
+* add api of buildFullUserRecord to module, not ready yet ([b898550](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/b898550d2bf94f57824ac2383ac74e0f42343398))
+* add buildFullUserRecord to AccountProfileMakerModuleSrc.xml ([10a4f4a](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/10a4f4a50860fb0ab16fb8a09caecc225ed60a47))
+* buildFullUserRecord to module ([5572c0c](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/5572c0c46fabe0c9f744c3ee5b3562fef427876c))
+* new version ([a533604](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/a5336040ed334e6b864c9a3f5708314c2b39132d))
+
 # [1.6.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.5.0...v1.6.0) (2023-11-02)
 
 
