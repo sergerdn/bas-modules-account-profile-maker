@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.7.0...v1.8.0) (2023-11-03)
+
+
+### Bug Fixes
+
+* remove transliterateCyrillicToEnglish from buildFullUserRecord ([c2af5cf](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/c2af5cf03dbdb9eb4fe2c39e01fb79d25f9f709b))
+
+
+### Features
+
+* new version ([4c3cc8c](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/4c3cc8ccb72daea76fdc8fcbb5895a377859ea83))
+
 # [1.7.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.6.0...v1.7.0) (2023-11-03)
 
 
