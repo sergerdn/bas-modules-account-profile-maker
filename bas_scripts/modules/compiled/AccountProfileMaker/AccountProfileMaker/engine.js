@@ -74,18 +74,6 @@ function AccountProfileMaker_buildFullUserRecord()
 
       
       
-      _call_function(AccountProfileMaker_transliterateCyrillicToEnglish,{ "cyrillicText": (VAR__FIRST_NAME_RESULT) })!
-      VAR__FIRST_NAME_RESULT = _result_function()
-      
-
-      
-      
-      _call_function(AccountProfileMaker_transliterateCyrillicToEnglish,{ "cyrillicText": (VAR__LAST_NAME_RESULT) })!
-      VAR__LAST_NAME_RESULT = _result_function()
-      
-
-      
-      
       _cycle_params().if_else = VAR_USERNAME_TYPE === "pronounceable";
       _set_if_expression("W1tVU0VSTkFNRV9UWVBFXV0gPT09ICJwcm9ub3VuY2VhYmxlIg==");
       _if(_cycle_params().if_else,function(){
