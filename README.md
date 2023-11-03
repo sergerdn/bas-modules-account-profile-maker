@@ -167,18 +167,22 @@ To create a new release, follow these steps:
     ```bash
     make release_dry_run
     ```
-3.
-Edit [AccountProfileMaker/manifest.json](bas_scripts/modules/compiled/AccountProfileMaker/AccountProfileMaker/manifest.json)
-and modify the `major_version` and `minor_version` variables according to your future release version.
+3. Edit
+   [AccountProfileMaker/manifest.json](bas_scripts/modules/compiled/AccountProfileMaker/AccountProfileMaker/manifest.json)
+   and modify the `major_version` and `minor_version` variables according to your future release version.
 4. Run the following command to create a release `AccountProfileMaker.zip` zip file:
-    ```bash
-    make zip_build
-    ```
+
+  ```bash
+  make zip_build
+  ```
+
 5. Commit your changes with commit message `feat: new version` and push them to the repository with.
 6. To create a new release, run the following command:
-    ```bash
-   make release
-   ```
+
+  ```bash
+  make release
+  ```
+
 7. Commit your changes with commit message `chore: new version` and push them to the repository with.
 
 You have successfully released your BAS module on GitHub. Please remember to follow any specific release guidelines or
