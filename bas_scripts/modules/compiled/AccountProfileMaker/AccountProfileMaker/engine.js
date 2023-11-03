@@ -1,3 +1,62 @@
+function AccountProfileMaker_buildFullUserRecord()
+   {
+   
+      
+      
+      VAR_COUNTRY = _function_argument("country")
+      
+
+      
+      
+      VAR_GENDER = _function_argument("gender")
+      
+
+      
+      
+      VAR_PASSWORD_LENGTH = _function_argument("passwordLength")
+      
+
+      
+      
+      VAR_PASSWORD_USE_DIGITS = _function_argument("passwordUseDigits")
+      
+
+      
+      
+      VAR_PASSWORD_USE_SPECIAL_CHARS = _function_argument("passwordUseSpecialChars")
+      
+
+      
+      
+      VAR_USERNAME_TYPE = _function_argument("usernameType")
+      
+
+      
+      
+      VAR_USERNAME_LENGTH = _function_argument("usernameLength")
+      
+
+      
+      
+      VAR_RESULT = {}
+      
+
+      
+      
+      if (VAR_USERNAME_TYPE !== "pronounceable" && VAR_USERNAME_TYPE !== "lastpass") {
+      fail_user("[account-profile-maker][buildFullUserRecord] invalid usernameType: " + usernameType, true);
+      }
+      VAR_RESULT["country"] = VAR_COUNTRY;
+      VAR_RESULT["gender"] = VAR_GENDER;
+      var msg = "country: " + VAR_COUNTRY + ", gender: " + VAR_GENDER + ", passwordLength: " + VAR_PASSWORD_LENGTH;
+      var msg = msg + ", passwordUseDigits: " + VAR_PASSWORD_USE_DIGITS + ", passwordUseSpecialChars: " + VAR_PASSWORD_USE_SPECIAL_CHARS;
+      var msg = msg + ", usernameType: " + VAR_USERNAME_TYPE + ", usernameLength: " + VAR_PASSWORD_LENGTH;
+      log("[account-profile-maker][buildFullUserRecord] called with param " + msg);
+      
+
+   }
+   
+
 function AccountProfileMaker_generateLastPassStyleUsername()
    {
    
@@ -98,7 +157,7 @@ function AccountProfileMaker_generateLastPassStyleUsername()
       * @param {number} minLength The minimum length of the generated username.
       * @returns {string|null} The generated username or null if a valid username cannot be created.
       */
-      function generateRandomUsername(tr, minLength) {
+      function _generateLastPassRandomUsername(tr, minLength) {
       var username;
       var attempts = 0;
       var maxAttempts = 10;
@@ -140,7 +199,7 @@ function AccountProfileMaker_generateLastPassStyleUsername()
       desiredLength = 20;
       }
       log("[account-profile-maker][generateLastPassStyleUsername] called with params length: " + desiredLength);
-      var generatedUsername = generateRandomUsername(transitions, desiredLength);
+      var generatedUsername = _generateLastPassRandomUsername(transitions, desiredLength);
       log("[account-profile-maker][generateLastPassStyleUsername] new username generated: " + generatedUsername);
       _function_return(generatedUsername);
       
@@ -159,7 +218,7 @@ function AccountProfileMaker_generatePronounceableUsername()
       * @param {number} length - The desired length of the username.
       * @returns {string} - A pronounceable username of the specified length.
       */
-      function generatePronounceableUsername(length) {
+      function _generatePronounceableRandomUsername(length) {
       var vowels = 'aeiou';
       var consonants = 'bcdfghjklmnpqrstvwxyz';
       var username = '';
@@ -184,7 +243,7 @@ function AccountProfileMaker_generatePronounceableUsername()
       desiredLength = 20;
       }
       log("[account-profile-maker][generatePronounceableUsername] called with params length: " + desiredLength);
-      var generatedUsername = generatePronounceableUsername(desiredLength);
+      var generatedUsername = _generatePronounceableRandomUsername(desiredLength);
       log("[account-profile-maker][generatePronounceableUsername] new username generated: " + generatedUsername);
       _function_return(generatedUsername);
       
