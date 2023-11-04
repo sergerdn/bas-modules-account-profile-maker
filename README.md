@@ -141,6 +141,10 @@ To prepare for the release, follow these steps:
   ```
 - Add/change auto-generated source code
   in [AccountProfileMaker](bas_scripts/modules/compiled/AccountProfileMaker/AccountProfileMaker)
+- **To transfer the updated source code** to the Browser Automation Studio (BAS) for further testing, run the following:
+  ```bash
+  make copy_local_to_bas
+  ``` 
 - Run the following command to create a release `AccountProfileMaker.zip` zip file:
   ```bash
   make zip_build
