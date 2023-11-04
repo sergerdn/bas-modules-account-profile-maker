@@ -1,3 +1,12 @@
+# [1.9.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.8.0...v1.9.0) (2023-11-04)
+
+
+### Features
+
+* new version ([11b787c](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/11b787cb0aff99ea9c39da024ff8cf3835913232))
+* reset source module to generated ([#26](https://github.com/sergerdn/bas-modules-account-profile-maker/issues/26)) ([a815770](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/a8157704d01805538042001a40fe3e5954806521))
+* reset-ui-module-to-generated ([16f19da](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/16f19daeb1db11fd7b70a3f1037865d97926da0d))
+
 # [1.8.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.7.0...v1.8.0) (2023-11-03)
 
 
