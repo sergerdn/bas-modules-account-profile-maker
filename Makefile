@@ -2,10 +2,13 @@ include .env
 export
 
 .DEFAULT_GOAL := copy_build
-BAS_VER = "26.3.0"
+BAS_VER = 26.3.0
+MODULE_NAME = AccountProfileMaker
+
 MODULE_SOURCE_DIR = "AppData/Roaming/BrowserAutomationStudio/apps/${BAS_VER}/modulecreate/AccountProfileMaker"
-MODULE_DST_DIR = "bas_scripts/modules/compiled"
-MODULE_NAME = "AccountProfileMaker"
+MODULE_BAS_INSTALLED_DIR = AppData/Roaming/BrowserAutomationStudio/apps/${BAS_VER}/custom/${MODULE_NAME}
+MODULE_DST_DIR = bas_scripts/modules/compiled
+
 ZIP_DST_GENERATED_NAME = "${MODULE_NAME}Generated.zip"
 ZIP_DST_PROD_NAME = "${MODULE_NAME}.zip"
 
@@ -39,6 +42,12 @@ zip_build:
 	cd "${MODULE_DST_DIR}/${MODULE_NAME}" && zip -r "${ZIP_DST_PROD_NAME}" "${MODULE_NAME}" && mv "${ZIP_DST_PROD_NAME}" ..
 	@git add "${MODULE_DST_DIR}/*"
 	@echo "ZIP build complete."
+
+copy_local_to_bas:
+	@echo "Copying local source code fo module to BAS..."
+	rm -rf "${USERPROFILE}/${MODULE_BAS_INSTALLED_DIR}" || echo ""
+	cp -r "${MODULE_DST_DIR}/${MODULE_NAME}/${MODULE_NAME}" "${USERPROFILE}/${MODULE_BAS_INSTALLED_DIR}"
+	#ls -lia "${USERPROFILE}/${MODULE_BAS_INSTALLED_DIR}"
 
 release_dry_run:
 	@echo "Releasing..."

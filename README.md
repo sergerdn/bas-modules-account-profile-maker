@@ -131,9 +131,18 @@ Before proceeding, make sure you have the following installed on your machine:
 
   ![](./docs/images/create_3.png)
 
-### Pre-Release Module Steps
+## Pre-Release Module Steps
 
-To prepare for the release, follow these steps:
+**Note:**
+
+BAS leverages [Backbone.js](https://backbonejs.org/#Collection-Underscore-Methods) version `1.2.1` as a pivotal
+framework, which inherently includes [Underscore.js](https://underscorejs.org/#collections) as an indispensable
+dependency. This integration affords developers the convenience of utilizing
+all [Underscore.js](https://underscorejs.org/#collections) collection methods within their modules directly. The
+incorporation of these robust libraries empowers developers to build modules that are not only efficient and reliable
+but also adhere to the highest standards of quality and performance.
+
+**To prepare for the release, follow these steps:**
 
 - Run the following command to copy the contents from the BAS created folder to the project directory and unzip it:
   ```bash

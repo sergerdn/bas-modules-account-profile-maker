@@ -1,2 +1,2 @@
-_call_function(AccountProfileMaker_randomLastNameByCountry,{ "country": (<%= icpoqeww %>),"gender": (<%= wtfyeyro %>) })!
+_call_function(AccountProfileMaker_randomLastNameByCountry,{ "country": (<%= xulvsved %>),"gender": (<%= erfwsqao %>) })!
 <%= variable %> = _result_function()
