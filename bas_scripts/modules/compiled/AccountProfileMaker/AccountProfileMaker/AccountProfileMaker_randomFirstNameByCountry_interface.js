@@ -6,6 +6,7 @@
         default_selector: "string",
         disable_expression: true,
         disable_int: true,
+        variants: ["US", "RU"],
         value_string: "US",
         help: { description: "The ISO code of the country (e.g., 'US' for the United States). Currently supported countries are US and RU." }
     }) %>
@@ -16,6 +17,7 @@
         default_selector: "string",
         disable_expression: true,
         disable_int: true,
+        variants: ["male", "female"],
         value_string: "male",
         help: { description: "The gender ('male' or 'female') for which to generate a name." }
     }) %>

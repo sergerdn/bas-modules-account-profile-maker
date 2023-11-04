@@ -5,6 +5,7 @@
         description: "country",
         default_selector: "string",
         disable_int: true,
+        variants: ["US", "RU"],
         value_string: "US",
         help: { description: "The ISO code of the country for name generation." }
     }) %>
@@ -14,6 +15,7 @@
         description: "gender",
         default_selector: "string",
         disable_int: true,
+        variants: ["male", "female"],
         value_string: "male",
         help: { description: "The gender ('male' or 'female') for name generation." }
     }) %>
@@ -65,6 +67,7 @@
         description: "usernameType",
         default_selector: "string",
         disable_int: true,
+        variants: ["pronounceable", "lastpass"],
         value_string: "pronounceable",
         help: { description: "The type of username to generate ('pronounceable' or 'lastpass')." }
     }) %>
