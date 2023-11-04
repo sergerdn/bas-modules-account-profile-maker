@@ -1,48 +1,48 @@
-var vhhtuwoc = GetInputConstructorValue("vhhtuwoc", loader);
-                 if(vhhtuwoc["original"].length == 0)
+var tvicgyxx = GetInputConstructorValue("tvicgyxx", loader);
+                 if(tvicgyxx["original"].length == 0)
                  {
                    Invalid("country" + " is empty");
                    return;
                  }
-var yfxccyou = GetInputConstructorValue("yfxccyou", loader);
-                 if(yfxccyou["original"].length == 0)
+var ixvkvghl = GetInputConstructorValue("ixvkvghl", loader);
+                 if(ixvkvghl["original"].length == 0)
                  {
                    Invalid("gender" + " is empty");
                    return;
                  }
-var gzwlyuim = GetInputConstructorValue("gzwlyuim", loader);
-                 if(gzwlyuim["original"].length == 0)
+var qsfhvoru = GetInputConstructorValue("qsfhvoru", loader);
+                 if(qsfhvoru["original"].length == 0)
                  {
                    Invalid("passwordLength" + " is empty");
                    return;
                  }
-var jwdgnzbf = GetInputConstructorValue("jwdgnzbf", loader);
-                 if(jwdgnzbf["original"].length == 0)
+var llvrkusb = GetInputConstructorValue("llvrkusb", loader);
+                 if(llvrkusb["original"].length == 0)
                  {
                    Invalid("passwordUseDigits" + " is empty");
                    return;
                  }
-var yumlndjd = GetInputConstructorValue("yumlndjd", loader);
-                 if(yumlndjd["original"].length == 0)
+var daypazls = GetInputConstructorValue("daypazls", loader);
+                 if(daypazls["original"].length == 0)
                  {
                    Invalid("passwordUseSpecialChars" + " is empty");
                    return;
                  }
-var olaestrk = GetInputConstructorValue("olaestrk", loader);
-                 if(olaestrk["original"].length == 0)
+var rxdwcxrb = GetInputConstructorValue("rxdwcxrb", loader);
+                 if(rxdwcxrb["original"].length == 0)
                  {
                    Invalid("usernameLength" + " is empty");
                    return;
                  }
-var yzieqqoz = GetInputConstructorValue("yzieqqoz", loader);
-                 if(yzieqqoz["original"].length == 0)
+var tyqyxzww = GetInputConstructorValue("tyqyxzww", loader);
+                 if(tyqyxzww["original"].length == 0)
                  {
                    Invalid("usernameType" + " is empty");
                    return;
                  }
 var Save = this.$el.find("#Save").val().toUpperCase();
 try{
-          var code = loader.GetAdditionalData() + _.template($("#AccountProfileMaker_buildFullUserRecord_code").html())({"vhhtuwoc": vhhtuwoc["updated"],"yfxccyou": yfxccyou["updated"],"gzwlyuim": gzwlyuim["updated"],"jwdgnzbf": jwdgnzbf["updated"],"yumlndjd": yumlndjd["updated"],"olaestrk": olaestrk["updated"],"yzieqqoz": yzieqqoz["updated"],"variable": "VAR_" + Save});
+          var code = loader.GetAdditionalData() + _.template($("#AccountProfileMaker_buildFullUserRecord_code").html())({"tvicgyxx": tvicgyxx["updated"],"ixvkvghl": ixvkvghl["updated"],"qsfhvoru": qsfhvoru["updated"],"llvrkusb": llvrkusb["updated"],"daypazls": daypazls["updated"],"rxdwcxrb": rxdwcxrb["updated"],"tyqyxzww": tyqyxzww["updated"],"variable": "VAR_" + Save});
           code = Normalize(code,0);
           BrowserAutomationStudio_Append("", BrowserAutomationStudio_SaveControls() + code, action, DisableIfAdd);
         }catch(e)
