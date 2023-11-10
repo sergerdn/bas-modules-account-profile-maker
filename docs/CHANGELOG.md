@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.9.0...v1.10.0) (2023-11-10)
+
+
+### Bug Fixes
+
+* add static id to the compiled module ([34caa40](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/34caa401c6eb3d2edd96ee2bf2339e56faf7e13a))
+
+
+### Features
+
+* new version ([3220a9b](https://github.com/sergerdn/bas-modules-account-profile-maker/commit/3220a9b4e33906da7f7a6fcf9d2371ab61e42108))
+
 # [1.9.0](https://github.com/sergerdn/bas-modules-account-profile-maker/compare/v1.8.0...v1.9.0) (2023-11-04)
 
 
