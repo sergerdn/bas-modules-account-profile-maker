@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <%= _.template($('#input_constructor')
             .html())({
-        id: "wrgwavai",
+        id: "AccountProfileMaker_transliterateCyrillicToEnglish_cyrillicText",
         description: "cyrillicText",
         default_selector: "string",
         disable_expression: true,

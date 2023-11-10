@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <%= _.template($('#input_constructor')
             .html())({
-        id: "ecoezlmo",
+        id: "AccountProfileMaker_randomFirstNameByCountry_country",
         description: "country",
         default_selector: "string",
         disable_expression: true,
