@@ -12,7 +12,7 @@
     }) %>
     <%= _.template($('#input_constructor')
             .html())({
-        id: "lbggowju",
+        id: "AccountProfileMaker_randomFirstNameByCountry_gender",
         description: "gender",
         default_selector: "string",
         disable_expression: true,
