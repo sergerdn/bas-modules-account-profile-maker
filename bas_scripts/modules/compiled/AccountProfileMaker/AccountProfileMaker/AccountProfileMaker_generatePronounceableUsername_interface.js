@@ -1,13 +1,13 @@
 <div class="container-fluid">
     <%= _.template($('#input_constructor')
             .html())({
-        id: "jeccfzyr",
+        id: "AccountProfileMaker_generatePronounceableUsername_length",
         description: "length",
         default_selector: "int",
         disable_string: true,
         value_number: 10,
-        min_number: -999999,
-        max_number: 999999,
+        min_number: 10,
+        max_number: 20,
         help: { description: "The desired length of the username. The minimum length is 10. If you provide fewer characters, it will be set to 10." }
     }) %>
     <%= _.template($('#variable_constructor')

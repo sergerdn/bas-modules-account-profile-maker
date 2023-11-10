@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <%= _.template($('#input_constructor')
             .html())({
-        id: "kjugdidf",
+        id: "AccountProfileMaker_buildFullUserRecord_country",
         description: "country",
         default_selector: "string",
         disable_int: true,
@@ -11,7 +11,7 @@
     }) %>
     <%= _.template($('#input_constructor')
             .html())({
-        id: "ythihgtk",
+        id: "AccountProfileMaker_buildFullUserRecord_gender",
         description: "gender",
         default_selector: "string",
         disable_int: true,
@@ -21,18 +21,18 @@
     }) %>
     <%= _.template($('#input_constructor')
             .html())({
-        id: "hhzgolou",
+        id: "AccountProfileMaker_buildFullUserRecord_passwordLength",
         description: "passwordLength",
         default_selector: "int",
         disable_string: true,
         value_number: 15,
-        min_number: -999999,
-        max_number: 999999,
+        min_number: 15,
+        max_number: 20,
         help: { description: "The length of the generated password." }
     }) %>
     <%= _.template($('#input_constructor')
             .html())({
-        id: "mukbhbeu",
+        id: "AccountProfileMaker_buildFullUserRecord_passwordUseDigits",
         description: "passwordUseDigits",
         default_selector: "string",
         variants: ["true", "false"],
@@ -42,7 +42,7 @@
     }) %>
     <%= _.template($('#input_constructor')
             .html())({
-        id: "tggbxiix",
+        id: "AccountProfileMaker_buildFullUserRecord_passwordUseSpecialChars",
         description: "passwordUseSpecialChars",
         default_selector: "string",
         variants: ["true", "false"],
@@ -52,18 +52,18 @@
     }) %>
     <%= _.template($('#input_constructor')
             .html())({
-        id: "woytdswi",
+        id: "AccountProfileMaker_buildFullUserRecord_usernameLength",
         description: "usernameLength",
         default_selector: "int",
         disable_string: true,
         value_number: 10,
-        min_number: -999999,
-        max_number: 999999,
+        min_number: 10,
+        max_number: 20,
         help: { description: "The desired length of the username." }
     }) %>
     <%= _.template($('#input_constructor')
             .html())({
-        id: "vlgnqldd",
+        id: "AccountProfileMaker_buildFullUserRecord_usernameType",
         description: "usernameType",
         default_selector: "string",
         disable_int: true,
