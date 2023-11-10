@@ -1,6 +1,6 @@
 {
   "name": "bas-modules-account-profile-maker",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "main": "index.js",
   "type": "commonjs",
   "private": true,
