@@ -2,7 +2,7 @@ include .env
 export
 
 .DEFAULT_GOAL := copy_build
-BAS_VER = 26.3.0
+BAS_VER = 26.4.0
 MODULE_NAME = AccountProfileMaker
 
 MODULE_SOURCE_DIR = "AppData/Roaming/BrowserAutomationStudio/apps/${BAS_VER}/modulecreate/AccountProfileMaker"
