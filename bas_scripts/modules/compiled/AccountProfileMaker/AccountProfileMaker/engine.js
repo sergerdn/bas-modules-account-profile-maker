@@ -1,3 +1,64 @@
+function AccountProfileMaker_randomBirthdate()
+   {
+   
+      
+      
+      /**
+      * Generates a random birthdate for a person within a specified age range.
+      *
+      * This function calculates a random birthdate for a person who is at least `minAge` years old
+      * and at most `maxAge` years old. It generates a birthdate between two calculated dates based on
+      * the current date minus `minAge` and `maxAge` years. The function simplifies the day generation
+      * to a maximum of 28 to account for all months, including February.
+      *
+      * @param {number} minAge - The minimum age of the person. Defaults to 18.
+      * @param {number} maxAge - The maximum age of the person. Defaults to 100.
+      * @returns {Object} The generated random birthdate in the format { month: X, day: Y, year: Z }.
+      */
+      function generateRandomBirthdate(minAge, maxAge) {
+      var minAge = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 18;
+      var maxAge = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 30;
+      var currentDate = new Date();
+      var latestBirthYear = currentDate.getFullYear() - minAge;
+      var earliestBirthYear = currentDate.getFullYear() - maxAge;
+      var randomYear = Math.floor(Math.random() * (latestBirthYear - earliestBirthYear + 1)) + earliestBirthYear;
+      var randomMonth = Math.floor(Math.random() * 12);
+      var randomDay = Math.floor(Math.random() * 28) + 1;
+      return { year: randomYear, month: randomMonth, day: randomDay };
+      }
+      var _minAge = _function_argument("minAge");
+      var _maxAge = _function_argument("maxAge");
+      log("[account-profile-maker][randomBirthdate] called with param minAge: " + _minAge + ", maxAge: " +  _maxAge);
+      // Convert minAge and maxAge to numbers
+      var minAgeNum = Number(_minAge);
+      // Check if conversion to number failed
+      if (isNaN(minAgeNum)) {
+      var errMsg = "[account-profile-maker][randomBirthdate] error: invalid minAge : " + _minAge;
+      log(errMsg);
+      fail_user(errMsg, true);
+      return;
+      }
+      var maxAgeNum = Number(_maxAge);
+      // Check if conversion to number failed
+      if (isNaN(maxAgeNum)) {
+      var errMsg = "[account-profile-maker][randomBirthdate] error: invalid maxAgeNum : " + _maxAgeNum;
+      log(errMsg);
+      fail_user(errMsg, true);
+      return;
+      }
+      if (minAgeNum > maxAgeNum) {
+      var errMsg  = "[account-profile-maker][randomBirthdate] error: minAge is greater than maxAge.";
+      log(errMsg);
+      fail_user(errMsg, true);
+      }
+      var result = generateRandomBirthdate(minAgeNum, maxAgeNum);
+      log("[account-profile-maker][randomBirthdate]  birthdate generated: " + JSON.stringify(result));
+      _function_return(result);
+      
+
+   }
+   
+
 function AccountProfileMaker_buildFullUserRecord()
    {
    
